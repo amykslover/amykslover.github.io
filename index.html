@@ -4,30 +4,64 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 
 <body>
+
+<div class="wrapper">
+
 	<header>
+
 	<h1 class="blueBox">Amy Slover</h1>
-
-	<ul class="headerList">
-		<li>About</li>
-		<li>Portfolio</li>
-		<li>Contact</li>
-
-	</ul>
+	
+	<nav>
+		<ul class="headerList">
+			<li><a href="index.html"> About |</a></li>
+			<li><a href="portfolio.html"> Portfolio | </a></li>
+			<li><a href="contact.html"> Contact</a></li>
+		</ul>
+	</nav>		
+	
 	</header>
 	
 	<section>
-		
-		<h2>About</h1> 
-		<h3>Connect</h1> 
+		<div class="left">
+			<h2>About Me</h2> 
+			<hr>
+			<img class="placholder" src="assets/images/ProfilePlaceholder.jpeg" alt="ProfilePlaceholder" style="width:220px;height:229px;">	
+			<p id="p1">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque, libero nec luctus feugiat, odio nibh pulvinar justo, non convallis enim magna id tellus. Mauris sed dapibus ex. Nullam sagittis porta urna dignissim egestas. Etiam malesuada justo non dui feugiat, non rhoncus ligula gravida. In fringilla eros orci, a gravida diam luctus egestas. Proin ac sem quis arcu ullamcorper blandit. Suspendisse vestibulum odio ipsum, a convallis massa lacinia a. Vestibulum pellentesque libero non erat fringilla, nec porttitor diam aliquet. Proin arcu sem, scelerisque eget vulputate quis, pellentesque et magna.
+			</p>
+			<br>
+			<p id="p2"> 
+				Aenean id nulla imperdiet, molestie metus nec, mattis enim. Aenean laoreet pulvinar ante, vel suscipit lacus posuere in. Maecenas felis lorem, accumsan ut diam nec, lacinia ultricies mauris. Nunc interdum purus at nibh porttitor, non molestie est vehicula. Phasellus cursus a sem vitae rutrum. Etiam ut ante mattis, mattis ex a, accumsan dolor. Donec vulputate lorem eget pellentesque pretium. Fusce ullamcorper fringilla mi vel tristique. Praesent mattis et arcu vel auctor. Ut non orci gravida, lobortis sapien pretium, lobortis est.
+			</p>			
+		</div>
 
-		<p> This is a paragraph.</p>
-		<p> This is another paragraph.</p>
-	<section>
+		<div class="right">
+			<h3>Connect with Me</h1> 
+
+			<hr>	
+
+			<div id="icon">
+	
+			<a href="https://github.com/amykslover"><img id="icon-1" src="assets/images/Square_GitHub.png" alt="GitHub" style="width:67px;height:67px;"></a>
+			<a href="https://www.linkedin.com/in/amy-slover-77801810/"><img id="icon-2" src="assets/images/Square_LinkedIn.png" alt="LinkedIn" style="width:67px;height:67px;"></a>
+			<a href="https://stackoverflow.com/users/8105125/amy-slover"><img id="icon-3" src="assets/images/Square_StackOverflow.png" alt="StackOverflow" style="width:58px;height:58px;"></a>
+			
+			</div>
+
+		</div>	
+
+	</section>
+    <div class="push"></div>
+</div>
+
+<footer class="footer"> </footer>
+
 </body>
 
 </html>
